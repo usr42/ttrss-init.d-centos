@@ -27,3 +27,4 @@ service tt-rss start`
 Thanks to
 ---------
 * Tiny Tiny RSS http://tt-rss.org
+* [daemonize](http://software.clapper.org/daemonize/) and its developer [Brian M. Clapper](https://github.com/bmc/)
