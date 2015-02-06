@@ -12,17 +12,17 @@ Requirements
 
 Installation
 ------------
-* Download the [tt-rss script](https://raw.githubusercontent.com/usr42/ttrss-init.d-centos/master/tt-rss) or the [whole repository](https://github.com/usr42/ttrss-init.d-centos/archive/master.zip) or clone this repository with following command:
+* Download the [tt-rss script](https://raw.githubusercontent.com/usr42/ttrss-init.d-centos/master/tt-rss) or the [whole repository](https://github.com/usr42/ttrss-init.d-centos/archive/master.zip) or clone this repository with following command:  
 `git clone https://github.com/usr42/ttrss-init.d-centos`
 * Copy the tt-rss script to /etc/init.d/tt-rss
 * Check if the variables at the start of the script fit your system.
 * Create the logfiles and make them writable for the script:
-`touch /var/log/tt-rss-update.log /var/log/tt-rss-update-error.log  
-chown apache:apache /var/log/tt-rss-update.log /var/log/tt-rss-update-error.log`
+```touch /var/log/tt-rss-update.log /var/log/tt-rss-update-error.log  
+chown apache:apache /var/log/tt-rss-update.log /var/log/tt-rss-update-error.log```
 * Make the script executable and let it automatically start when system boots:
-`chmod +x /etc/init.d/tt-rss  
+```chmod +x /etc/init.d/tt-rss  
 chkconfig tt-rss on  
-service tt-rss start`
+service tt-rss start```
 
 Thanks to
 ---------
