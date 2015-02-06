@@ -6,7 +6,7 @@ Requirements
 ------------
 * a CentOS (6) system, maybe other versions of CentOS
 * **daemonize** must be installed (can be found at EPEL)
-  *make sure EPEL is configured as repository
+  * make sure EPEL is configured as repository
   * execute:
 `sudo yum install daemonize`
 
